@@ -9,7 +9,6 @@ function factorialNumber(num) {
   let factorial;
   if (Number.isInteger(num) && (Math.sign(num) === 1 || Math.sign(num) === 0)) {
     factorial = num;
-    //5 - 5 > 5
     if (num > 0) {
       for (let index = num; index > 1; index--) {
         factorial *= index - 1;
