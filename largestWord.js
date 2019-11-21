@@ -1,3 +1,9 @@
+/**
+ *
+ * Returns the longest word of a phrase
+ * @param {string} phrase
+ * @returns {string | null}
+ */
 function largestWord(phrase) {
   // We setup a negated regex to filter out special characters
   const regex = /([^A-Za-z\s])*/g;
